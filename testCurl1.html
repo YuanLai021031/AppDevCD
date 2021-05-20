@@ -1,0 +1,20 @@
+<html>
+<head><title>Evaluation page</title></head>
+<body>
+<h1>Please evaluate my teaching:</h1>
+<form method=GET action="eval.php">
+	Your ID:<input type=text name=stID size=10> 
+	<p>Please rate:
+	<select name="rating" size=1>
+		<option value="5">5 - Excellent, very helpful</option>
+		<option value="4">4 - Very Good, helpful</option>
+		<option value="3">3 - Good, I learned something</option>
+		<option value="2">2 - Ok, but not very illustrative</option>
+		<option value="1">1 - Not Useful At All, Sorry</option>
+		<option value="0">0 - Totally bullsh!t</option>		
+	</select></p>
+	<input type=submit value=Submit>
+</form> 
+The ratings can be found <a href="eval.txt">Here</a>.
+</body>
+</html>
